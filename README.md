@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kojo's Marketing Site Starter Kit (NextJS Edition)
 
-## Getting Started
+This repository is a NextJS port of the [Astro Boilerplate](https://github.com/KojoDesign/astro-boilerplate), which contains everything you need to start and maintain a SEO-ready, performance-optimized marketing website you can customize to your hearts desire!
 
-First, run the development server:
+To get started, simply hit the "Use This Template" button on this repo to start your own project with this boilerplate.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## What's Inside
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Building Blocks
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📦 **[pnpm](https://pnpm.io)** for package management, as it's much faster and more performant than NPM. It's configured using Corepack, so you should be able to install it via `corepack enable` (this command comes with Node).
+- 🚀 **[NextJS](https://nextjs.org)**, a React framework for creating high-performant React apps and webpages.
+- 👷 **[TypeScript](https://www.typescriptlang.org/)** for writing type-safe, maintainable code.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### UI & Styling
 
-## Learn More
+- 🪁 **[Tailwind CSS](https://tailwindcss.com)** for modular, consistent CSS styling. Includes plugins such as [tailwindcss-typography](https://github.com/tailwindlabs/tailwindcss-typography) and [tailwindcss-animate](https://github.com/jamiebuilds/tailwindcss-animate).
+- 📥 **[shadcn-ui](https://ui.shadcn.com/)** for rapidly adding pre-configured UI components to your website.
+- 🦄 **[unplugin-icons](https://github.com/unplugin/unplugin-icons)** for easily inlining thousands of on-demand icons in React components.
+- ⚒️ Custom component primitives such as [Typography](src/components/ui/Typography.tsx) and [Stack](src/components/ui/Stack.tsx).
 
-To learn more about Next.js, take a look at the following resources:
+### Animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🚥 **[Rive](https://rive.app)** for embedding performant, interactive animations on your site.
+- 🏃 **[Motion](https://motion.dev)** (formerly Framer Motion) for creating realistic spring animations in JavaScript.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Developer Experience
 
-## Deploy on Vercel
+- 📝 **[biome](biomejs.dev)** for lightning-fast linting in JavaScript and TypeScript (written in Rust)
+- 🎨 **[Prettier](prettier.io)** for opinionated formatting (only used because Biome's HTML formatting is [incomplete](https://biomejs.dev/internals/language-support/)).
+- 🐶 **[Husky](https://github.com/typicode/husky)** with **[lint-staged](https://github.com/lint-staged/lint-staged)** to automatically run linting on new commits.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Guides
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Best Practices](docs/best-practices.md)
+- [Creating UI components](docs/shadcn.md)
+- [Adding new Tailwind colors](docs/tailwind.md)
+- [Using custom fonts](docs/fonts.md)
+- [Using icons & SVGs](docs/icons.md)
+- [Using Motion](docs/motion.md)
+- [Using Rive](docs/rive.md)
+
+### Using Astro
+
+- [Adding Images in Astro](https://docs.astro.build/en/guides/images)
+- [Using Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) (useful for blogs and articles)
