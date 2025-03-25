@@ -35,7 +35,6 @@ To get started, simply hit the "Use This Template" button on this repo to start 
 - [Best Practices](docs/best-practices.md)
 - [Creating UI components](docs/shadcn.md)
 - [Adding new Tailwind colors](docs/tailwind.md)
-- [Using custom fonts](docs/fonts.md)
 - [Using icons & SVGs](docs/icons.md)
 - [Using Motion](docs/motion.md)
 - [Using Rive](docs/rive.md)
