@@ -38,8 +38,3 @@ To get started, simply hit the "Use This Template" button on this repo to start 
 - [Using icons & SVGs](docs/icons.md)
 - [Using Motion](docs/motion.md)
 - [Using Rive](docs/rive.md)
-
-### Using Astro
-
-- [Adding Images in Astro](https://docs.astro.build/en/guides/images)
-- [Using Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) (useful for blogs and articles)

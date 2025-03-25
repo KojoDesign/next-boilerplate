@@ -10,7 +10,7 @@
         "noExplicitAny": "warn"
       }
     },
-    "ignore": ["node_modules", "dist", ".astro"]
+    "ignore": ["node_modules", "dist", ".next"]
   },
   "organizeImports": {
     "enabled": true
